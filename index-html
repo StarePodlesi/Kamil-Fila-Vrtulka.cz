@@ -8,7 +8,8 @@
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(to bottom, #fefcea, #f1da36); /* slunečné pozadí */
+            /* Červeno-modrý gradient */
+            background: linear-gradient(135deg, #ff4d4d, #4d79ff);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -17,7 +18,7 @@
 
         /* Hlavní blok s textem a obrázky */
         .container {
-            background: rgba(255, 255, 255, 0.85); /* mírně průhledný bílý blok */
+            background: rgba(255, 255, 255, 0.85); /* mírně průhledný blok */
             padding: 30px;
             border-radius: 20px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.2);
@@ -26,7 +27,7 @@
         }
 
         h1 {
-            color: #ff6f61;
+            color: #ff1a1a; /* červená pro nadpis */
             font-size: 2.5em;
             margin-bottom: 20px;
         }
